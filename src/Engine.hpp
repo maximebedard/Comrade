@@ -57,7 +57,7 @@ namespace comrade
 
     void cleanup();
 
-    void load_config(std::string configPath = "config/config.json");
+    void load_config(std::string configPath = "config/settings.json");
 
     SDL_Window* m_window;
 
